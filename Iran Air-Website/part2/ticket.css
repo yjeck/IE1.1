@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background: #131325;
+}
+.container{
+    width: 80%;
+    margin: 160PX;
+    background: #212140;
+    padding:8px 12px 12px;
+    border-radius: 10px;
+    border: 1px solid #212140;
+}
+.ticket{
+    margin: 21px 0;
+}
+
+.ticket-item{
+    margin:11px  auto auto;
+    padding: 11px;
+    background: #dadeec;
+    border-radius: 10px;
+}
+
+.info ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-right: 0;
+}
+.details-title{
+    color: #740202;
+
+}
+.btn{
+    padding: 6px 27px;
+    background: green;
+    border: 1px solid #16690c;
+    border-radius: 15px;
+    font-size: 15px;
+    color: white;
+
+}
+btn:hover{
+    color: greenyellow;
+}
+
+
+.seatSelection {
+    text-align: center;
+    padding: 5px;
+    margin: 15px;}
+
+.seatsReceipt {text-align: center;}
+
+.seatNumber {
+    display: inline;
+    padding: 12px;
+    background-color: cornflowerblue;
+    color: #FFF;
+    border-radius: 5px;
+    cursor: default;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+.seatNumber:hover{
+   background-color: darkgreen;
+}
+
+.seatRow {
+    padding: 20px;
+
+}
+
+.seatUnavailable {background-color: red;}
+
+.seatRowNumber {
+    clear: none;
+    display: inline;
+}
+
